@@ -38,6 +38,12 @@
     margin-right: -4px;
   }
  
+.chris {
+  border:5px solid #021a40;
+  border-color: #00FFFF;
+  border-radius: 200px;
+}
+
   /* Options 2 - Float
   .nav li {
     float: left;
