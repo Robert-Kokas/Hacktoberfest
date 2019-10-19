@@ -10,7 +10,6 @@ body {
 html, body {
   padding: 0;
   margin: 0;
-  height: 100%;
 }
 
 .hacktober-logo {
@@ -34,7 +33,7 @@ html, body {
   justify-content: center;
 }
 
-.buttons a {
+.buttons a, .inlineLink {
   background: #a11ec6;
   border-color: #a11ec6;
   border: 0;
@@ -46,7 +45,7 @@ html, body {
   text-decoration: none;
 }
 
-.buttons a:hover {
+.buttons a:hover,  .inlineLink:hover {
   background: #92eaff;
   color: #1d2c4e !important;
   box-shadow: 3px 3px 0 1px #45717b6b;
@@ -59,8 +58,8 @@ html, body {
 .text {
   margin-top: 3rem;
   margin-bottom: 3rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 footer {
@@ -69,4 +68,29 @@ footer {
   width: 100%;
   text-align: center;
   background: #0e1b3c;
+}
+
+.header-name {
+  text-align: center;
+}
+
+.images, .text {
+  padding: 5px;
+  background: #0e1b3c;
+  box-shadow: 3px 3px 0 3px #0a142b;
+}
+
+.content {
+  margin-top: 10px;
+  display: flex;
+}
+
+.content div {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.text {
+  vertical-align: middle;
 }
