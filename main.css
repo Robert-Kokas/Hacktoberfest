@@ -1,60 +1,96 @@
-.nav ul {
-  background-color: #444;
-  list-style: none;
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Open Sans');
+
+body {
+  background-color: #152347;
+  color: white;
+  font-family: 'Open Sans';font-size: 15px;
+  width: auto;
+}
+
+html, body {
   padding: 0;
   margin: 0;
 }
-.nav li {
-  font-size: 1.2em;
-  line-height: 40px;
-  height: 40px;
-  border-bottom: 1px solid #888;
+
+.hacktober-logo {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 }
- 
-.nav a {
+
+.hacktober-logo img {
+  width: 350px;
+}
+
+.header-title {
+  text-align: center;
+  color: #fff;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.buttons a, .inlineLink {
+  background: #a11ec6;
+  border-color: #a11ec6;
+  border: 0;
+  cursor: pointer;
+  padding: 5px;
+  margin: 0 5px 0 5px;
+  color: white !important;
+  transition: .2s;
   text-decoration: none;
-  color: #00FFFF;
-  display: block;
-  transition: .3s background-color;
-}
- 
-.nav a:hover {
-  background-color: #005f5f;
 }
 
-@media screen and (min-width: 600px) {
-  .nav li {
-    width: 260px;
-    border-bottom: none;
-    height: 50px;
-    line-height: 50px;
-    font-size: 1.4em;
-  }
- 
-  /* Option 1 - Display Inline */
-  .nav li {
-    display: inline-block;
-    margin-right: -4px;
-  }
- 
-.chris {
-  border:5px solid #021a40;
-  border-color: #00FFFF;
-  border-radius: 200px;
+.buttons a:hover,  .inlineLink:hover {
+  background: #92eaff;
+  color: #1d2c4e !important;
+  box-shadow: 3px 3px 0 1px #45717b6b;
 }
 
-  /* Options 2 - Float
-  .nav li {
-    float: left;
-  }
-  .nav ul {
-    overflow: auto;
-    width: 600px;
-    margin: 0 auto;
-  }
-  .nav {
-    background-color: #444;
-  }
-  */
+.header, .text {
+  text-align: center;
+}
+
+.text {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background: #0e1b3c;
+}
+
+.header-name {
+  text-align: center;
+}
+
+.images, .text {
+  padding: 5px;
+  background: #0e1b3c;
+  box-shadow: 3px 3px 0 3px #0a142b;
+}
+
+.content {
+  margin-top: 10px;
+  display: flex;
+}
+
+.content div {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.text {
+  vertical-align: middle;
 }
