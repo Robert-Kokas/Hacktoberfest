@@ -80,24 +80,22 @@ footer {
   box-shadow: 3px 3px 0 3px #0a142b;
 }
 
-.images {
+.chris {
   padding: 5px;
   background: #0e1b3c;
   box-shadow: 3px 3px 0 3px #0a142b;
   border:5px solid #021a40;
-  border-color: #00FFFF;
+  border-color: #A11EC6;
   border-radius: 200px;
 }
 
 .content {
   margin-top: 10px;
-  display: flex;
 }
 
 .content div {
   margin-left: 10px;
   margin-right: 10px;
-  display: inline-block;
 }
 
 .text {
