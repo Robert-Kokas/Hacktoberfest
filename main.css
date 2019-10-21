@@ -74,10 +74,19 @@ footer {
   text-align: center;
 }
 
-.images, .text {
+.text {
   padding: 5px;
   background: #0e1b3c;
   box-shadow: 3px 3px 0 3px #0a142b;
+}
+
+.images {
+  padding: 5px;
+  background: #0e1b3c;
+  box-shadow: 3px 3px 0 3px #0a142b;
+  border:5px solid #021a40;
+  border-color: #00FFFF;
+  border-radius: 200px;
 }
 
 .content {
